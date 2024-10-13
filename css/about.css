@@ -1,0 +1,145 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #B3CBB9;
+    color: #264025;
+    line-height: 1.6;
+    padding: 20px;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+
+.profile-info h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.role {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.availability {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.status-text {
+    font-size: 0.9em;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #000;
+}
+
+/* .buttons {
+    display: flex;
+}
+
+.work-btn, .cv-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.work-btn:hover, .cv-btn:hover {
+    background-color: #333; 
+}*/
+
+.buttons {
+    display: flex;
+    gap: 10px; /* Spacing between buttons */
+  }
+  
+  .work-btn, .cv-btn {
+    padding: 10px 20px;
+    background-color:#9A616D; 
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.4s;
+  }
+  
+  .work-btn:hover, .cv-btn:hover {
+    background-color: #2d72bb; /* Darker blue on hover */
+  }
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+
+.skills a {
+    width: 50px;
+}
+
+.education-experience {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education, .experience {
+    width: 45%;
+}
+
+.education-experience .education p,
+.education-experience .experience p{
+    color: #4B7B83;
+   
+}
+
+
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
